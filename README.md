@@ -1,7 +1,5 @@
 ![Softhouse][18]
 
---
-
 Example Git repository for the Softhouse Git workshop.
 
 We will use the following command list:
@@ -25,10 +23,10 @@ We will use the following command list:
 ### COMMIT
 
 - Add file <code>\$FILE</code> to staging files [![Link][17]][6]
-<pre>git add \$FILE</pre>
+<pre>git add $FILE</pre>
 
 - Stage file <code>\$FILE</code> for deletion [![Link][17]][7]
-<pre>git rm \$FILE</pre> 
+<pre>git rm $FILE</pre> 
 
 - Record changes to the repository [![Link][17]][8]
 <pre>git commit [-m "message"]</pre>
@@ -36,15 +34,15 @@ We will use the following command list:
 ### BRANCH
 
 - Switch to branch <code>\$BRANCH</code> [![Link][17]][9]
-<pre>git checkout \$BRANCH</pre>
+<pre>git checkout $BRANCH</pre>
 
 - Create and switch to a new branch <code>\$BRANCH</code> [![Link][17]][9]
-<pre>git checkout -b \$BRANCH</pre>
+<pre>git checkout -b $BRANCH</pre>
 
 ### REVERT
 
 - Undo uncommit changes of <code>\$FILE</code> [![Link][17]][9]
-<pre>git checkout -- \$FILE</pre>
+<pre>git checkout -- $FILE</pre>
 
 - Reset to last checked in state (can't undo) [![Link][17]][10]
 <pre>git reset --hard</pre>
@@ -61,13 +59,13 @@ We will use the following command list:
 ### PUBLISH
 
 - Tag commit as <code>\$TAG</code> [![Link][17]][12]
-<pre>git tag -a \$TAG -m "message"</pre>
+<pre>git tag -a $TAG -m "message"</pre>
 
 - Publish to remote repository branch <code>\$BRANCH</code> [![Link][17]][13]
-<pre>git push origin \$BRANCH</pre>
+<pre>git push origin $BRANCH</pre>
 
 - Publish the tag <code>\$TAG</code> to remote. 
-<pre>git push origin \$TAG</pre>
+<pre>git push origin $TAG</pre>
 
 ### REMOTE
 
@@ -75,9 +73,7 @@ We will use the following command list:
 <pre>git fetch</pre>
 
 - Pull (fetch and merge) from remote <code>\$BRANCH</code> [![Link][17]][15]
-<pre>git pull origin \$BRANCH</pre>
-
---
+<pre>git pull origin $BRANCH</pre>
 
 [![git-scm.com][16]][1]
 
