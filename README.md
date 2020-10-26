@@ -2,6 +2,32 @@
 
 Example Git repository for the Softhouse Git workshop.
 
+## Init the workshop workspace
+
+Once this repository has been cloned, you have to run <code>init-workspace.sh</code> script 
+<pre>% sh ./init-workspace.sh</pre>
+
+and move to the new workspasce folder already created.
+<pre>% cd ../git-workshop-workspace</pre>
+
+In here you will have a local/remote repository where you can practice the exercises without fare to damage this GitHub repository.
+<pre>
+../git-workshop-workspace
+├── LICENSE
+├── README.md
+├── document.md
+├── init-workspace.sh
+├── resources
+│   ├── chat.png
+│   ├── header.png
+│   └── link.png
+└── sub
+    ├── README.md
+    └── pull.md
+</pre>
+
+## Command lines
+
 We will use the following command list:
 
 ### CREATE
@@ -75,6 +101,7 @@ We will use the following command list:
 - Pull (fetch and merge) from remote <code>\$BRANCH</code> [![Link][17]][15]
 <pre>git pull origin $BRANCH</pre>
 
+##More info
 [![git-scm.com][16]][1]
 
 [1]:  https://www.git-scm.com "git-scm.com"
