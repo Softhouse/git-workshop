@@ -101,7 +101,7 @@ We will use the following command list:
 - Pull (fetch and merge) from remote <code>\$BRANCH</code> [![Link][17]][15]
 <pre>git pull origin $BRANCH</pre>
 
-##More info
+## More info
 
 [![git-scm.com][16]][1]
 
