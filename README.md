@@ -30,6 +30,14 @@ In here you will have a local/remote repository where you can practice the exerc
 
 We will use the following command list:
 
+### SET UP
+
+- Set up your user name
+<pre>git config user.name "Your Name"</pre>
+
+- Set up your email
+<pre>git config user.email "your.email@domain.com"</pre>
+
 ### CREATE
 
 - Clone a repository into a new directory from <code>\$URL</code> [![Link][17]][2]
