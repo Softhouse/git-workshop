@@ -102,6 +102,7 @@ We will use the following command list:
 <pre>git pull origin $BRANCH</pre>
 
 ##More info
+
 [![git-scm.com][16]][1]
 
 [1]:  https://www.git-scm.com "git-scm.com"
