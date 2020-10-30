@@ -44,14 +44,22 @@ To access to c:\ we can do
 
 <pre>cd $C</pre>
 
-# Git Autocomplete for macOS
+# Git Completion Tool for macOS
 
-//TODO: add a sentence for what the hell is it.
+The Git Completion Tool provide support for completing:
 
+* local and remote branch names
+* local and remote tag names
+* .git/remotes file names
+* git 'subcommands'
+* git email aliases for git-send-email
+* tree paths within 'ref:path/to/file' expressions
+* file paths within current working directory and index
+* common --long-options
 
 ## From macOS Catalina 10.15 (ZSH)
 
-Create a directory call .zsh at your <code>\$HOME</code>
+Create a directory call <code>.zsh</code> at your <code>\$HOME</code>
 
 <pre>
 $ mkdir ~/.zsh
