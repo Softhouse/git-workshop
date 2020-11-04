@@ -23,9 +23,11 @@ After that run Windows PowerShell as Administrator
 
 ![powershell][3]
 
-and use the following SINGLE command:
+and use the following two commands:
 
-<pre>Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -norestart dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all</pre>
+<pre>Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -norestart</pre>
+
+<pre>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all</pre>
 
 
 ### Download a Linux system from the Windows store
